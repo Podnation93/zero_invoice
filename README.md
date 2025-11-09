@@ -12,9 +12,10 @@ This project is a self-hosted web-based application that replicates the core fun
 - Backend setup with Node.js, Express, and SQLite.
 - Frontend React application manually set up.
 - Invoice API endpoints and database schema created.
+- Basic UI for displaying invoices implemented.
 
 ## Next Steps
 
-- Implement the frontend UI for invoicing.
+- Implement UI for creating, updating, and deleting invoices.
 - Implement the API and UI for quotes.
 - Implement the rest of the core features as outlined in the design document.
