@@ -8,9 +8,10 @@ This project is a self-hosted web-based application that replicates the core fun
 
 ## Current Status
 
-Project initialized. Backend setup with Node.js, Express, and SQLite.
+- Project initialized.
+- Backend setup with Node.js, Express, and SQLite.
+- Frontend React application manually set up.
 
 ## Next Steps
 
-- Set up the React frontend.
 - Implement the core features as outlined in the design document.
