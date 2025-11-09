@@ -140,7 +140,7 @@ npm start
 
 # Version Control
 
-This project uses Git for version control. At each stage of development, relevant commits should be made to the project's GitHub repository.
+This project uses Git for version control. The remote repository is located at: https://github.com/Podnation93/zero_invoice.git
 
 **Committing Changes:**
 
@@ -151,3 +151,7 @@ git add .
 git commit -m "Your descriptive commit message"
 git push
 ```
+
+**README.md:**
+
+The `README.md` file in the root of the project should be updated with each commit to reflect the latest changes and the current status of the project.
