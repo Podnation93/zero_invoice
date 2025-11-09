@@ -10,13 +10,10 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(cors());
 
-// Database setup
-const db = new sqlite3.Database('./database.db', (err) => {
-  if (err) {
-    console.error(err.message);
-  }
-  console.log('Connected to the SQLite database.');
-});
+const db = require('./database.js');
+
+const invoicesRouter = require('./routes/invoices');
+app.use('/api/invoices', invoicesRouter);
 
 // API routes
 app.get('/', (req, res) => {
