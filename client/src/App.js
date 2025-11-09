@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Invoices from './components/Invoices';
+import CreateInvoice from './components/CreateInvoice';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>Welcome to zero_invoice</h1>
       </header>
       <main>
+        <CreateInvoice />
         <Invoices />
       </main>
     </div>
