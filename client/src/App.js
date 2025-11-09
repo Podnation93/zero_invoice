@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Invoices from './components/Invoices';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
         <h1>Welcome to zero_invoice</h1>
       </header>
+      <main>
+        <Invoices />
+      </main>
     </div>
   );
 }
