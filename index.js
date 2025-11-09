@@ -12,6 +12,9 @@ app.use(cors());
 
 const db = require('./database.js');
 
+const quotesRouter = require('./routes/quotes');
+app.use('/api/quotes', quotesRouter);
+
 const invoicesRouter = require('./routes/invoices');
 app.use('/api/invoices', invoicesRouter);
 
