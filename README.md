@@ -14,9 +14,9 @@ This project is a self-hosted web-based application that replicates the core fun
 - Invoice API endpoints and database schema created.
 - Basic UI for displaying invoices implemented.
 - UI for creating invoices implemented.
+- UI for updating and deleting invoices implemented.
 
 ## Next Steps
 
-- Implement UI for updating and deleting invoices.
 - Implement the API and UI for quotes.
 - Implement the rest of the core features as outlined in the design document.
