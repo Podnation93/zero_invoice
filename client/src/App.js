@@ -3,6 +3,7 @@ import './App.css';
 import Invoices from './components/Invoices';
 import CreateInvoice from './components/CreateInvoice';
 import Quotes from './components/Quotes';
+import CreateQuote from './components/CreateQuote';
 
 function App() {
   const [view, setView] = useState('invoices');
@@ -23,7 +24,12 @@ function App() {
             <Invoices />
           </>
         )}
-        {view === 'quotes' && <Quotes />}
+        {view === 'quotes' && (
+          <>
+            <CreateQuote />
+            <Quotes />
+          </>
+        )}
       </main>
     </div>
   );
